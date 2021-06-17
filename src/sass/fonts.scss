@@ -1,0 +1,53 @@
+  @font-face {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Robotobold.woff2") format("woff2"),
+      url("../fonts/Robotobold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Robotolight.woff2") format("woff2"),
+      url("../fonts/Robotolight.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Roboto.woff2") format("woff2"),
+      url("../fonts/Roboto.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Worksans";
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Worksansbold.woff2") format("woff2"),
+      url("../fonts/Worksansbold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Worksans";
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Worksanslight.woff2") format("woff2"),
+      url("../fonts/Worksanslight.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Worksans";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Worksans.woff2") format("woff2"),
+      url("../fonts/Worksans.woff") format("woff");
+  }
