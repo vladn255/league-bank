@@ -8,16 +8,22 @@ $font-black: #1f1e25;
 $font-blackest: #000000;
 $font-grey: #707c87;
 $font-light-grey: #e0e1ea;
+$font-white: #F6F7FF;
 
 $decor-grey: #c1c2ca;
+$input-border: #1f1e25;
 
 // Fonts
 
 $font-family: "Roboto", "Arial", sans-serif;
-$font-family-logo: "Worksans";
+$font-family-logo: "Worksans", "Arial", sans-serif;
 
 $fs-base: 16px;
 $lh-base: 19px;
 
 $fs-logo: 20px;
 $lh-logo: 23px;
+
+// Sizes
+
+$desktop-width: 1366px;

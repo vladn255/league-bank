@@ -1,0 +1,30 @@
+.banner {
+    background-color: $bg-blue;
+    width: 100%;
+}
+
+.banner__container {
+    position: relative;
+    width: $desktop-width;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner__title {
+    color: $font-white;
+    font-size: 54px;
+    line-height: 63px;
+}
+
+.banner__text {
+    color: $font-light-grey;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.banner__img {
+    position: absolute;
+} 

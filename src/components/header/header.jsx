@@ -1,14 +1,12 @@
-import './header.scss';
-
 const Header = () => {
     return (
         <header className="header">
             <nav className="nav">
                 <div className="logo">
-                    <svg className="logo__icon">
+                    <svg className="logo__icon" width="28" height="25" aria-label="logo">
 
                     </svg>
-                    <span>
+                    <span className="logo__title">
                         ЛИГА Банк
                     </span>
                 </div>

@@ -1,0 +1,39 @@
+.button {
+  border-radius: 4px;
+  background-color: $bg-blue;
+  color: $font-white;
+}
+
+.button--banner {
+  background-color: $bg-light-grey;
+
+  color: $font-black;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+
+  padding-top: 19px;
+  padding-bottom: 21px;
+  padding-right: 36px;
+  padding-left: 36px;
+}
+
+.button--save {
+  font-size: 18px;
+  line-height: 25px;
+
+  grid-area: button;
+  justify-self: end;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 382px;
+  min-height: 60px;
+}
+
+.button--history {
+  width: 198px;
+  min-height: 51px;
+}

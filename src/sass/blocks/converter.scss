@@ -1,0 +1,30 @@
+.converter {
+  width: $desktop-width;
+  margin: auto;
+}
+
+.converter__title {
+  font-size: 41px;
+  line-height: 57px;
+  font-weight: bold;
+}
+
+.converter__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  align-items: center;
+
+  grid-template-areas:
+    "current conversed"
+    "calendar button";
+}
+
+.converter__wrapper--current {
+  grid-area: current;
+}
+
+.converter__wrapper--conversed {
+  grid-area: conversed;
+  justify-self: end;
+}

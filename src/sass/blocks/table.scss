@@ -1,0 +1,15 @@
+.table__body {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.table__row:first-child {
+  margin-right: 100px;
+}
+
+.table__data {
+  font-size: 18px;
+  line-height: 23px;
+}

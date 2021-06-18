@@ -1,0 +1,26 @@
+.footer {
+  background-color: $bg-light-grey;
+}
+
+.footer__text {
+  color: $font-grey;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.footer__wrapper {
+  width: $desktop-width;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text--bold {
+    font-weight: bold;
+    font-size: $fs-base;
+    line-height: 22px;
+    color: $font-black;
+}

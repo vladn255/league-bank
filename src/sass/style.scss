@@ -1,1 +1,17 @@
-@import "fonts.scss", "variables.scss", "global.scss";
+@import "fonts.scss";
+@import "variables.scss";
+@import "global.scss";
+@import "./blocks/App.scss";
+@import "./blocks/banner.scss";
+@import "./blocks/button.scss";
+@import "./blocks/converter.scss";
+@import "./blocks/form.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/header.scss";
+@import "./blocks/history.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/main.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/services.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/table.scss";
