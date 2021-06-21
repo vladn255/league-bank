@@ -1,0 +1,10 @@
+.socials {
+  display: flex;
+  padding-left: 0;
+}
+
+.socials__item {
+  &:not(&:first-child) {
+    margin-left: 15px;
+  }
+}

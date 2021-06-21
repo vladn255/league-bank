@@ -1,16 +1,12 @@
+import Logo from '../logo/logo.jsx';
+import Socials from '../socials/socials.jsx';
+
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__wrapper">
                 <div className="footer__credentials">
-                    <div className="logo">
-                        <svg className="logo__icon" width="28" height="25" aria-label="logo">
-
-                        </svg>
-                        <span className="logo__title">
-                            ЛИГА Банк
-                        </span>
-                    </div>
+                    <Logo />
                     <p className="footer__text">150015, г.Москва, ул.Московская, д.32<br />
                         Генеральная лицензия Банка России №1050<br />
                         &copy; Лига Банк, 2019
@@ -51,36 +47,7 @@ const Footer = () => {
                         Бесплатный для всех городов России
                     </p>
                 </div>
-                <ul className="socials">
-                    <li className="socials__item">
-                        <a className="socials__link socials__link--facebook" href="/#">
-                            <svg width="54" height="54" aria-label="facebook-link">
-
-                            </svg>
-                        </a>
-                    </li>
-                    <li className="socials__item">
-                        <a className="socials__link socials__link--instagram" href="/#">
-                            <svg width="54" height="54" aria-label="instagram-link">
-
-                            </svg>
-                        </a>
-                    </li>
-                    <li className="socials__item">
-                        <a className="socials__link socials__link--twitter" href="/#">
-                            <svg width="54" height="54" aria-label="twitter-link">
-
-                            </svg>
-                        </a>
-                    </li>
-                    <li className="socials__item">
-                        <a className="socials__link socials__link--youtube" href="/#">
-                            <svg width="54" height="54" aria-label="youtube-link">
-
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+<Socials />
             </div>
         </footer>
     )

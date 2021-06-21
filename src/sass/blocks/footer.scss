@@ -1,26 +1,79 @@
 .footer {
   background-color: $bg-light-grey;
+
+  padding-top: 46px;
 }
 
 .footer__text {
   color: $font-grey;
   font-size: 12px;
   line-height: 17px;
+  margin: 0;
 }
 
 .footer__wrapper {
   width: $desktop-width;
   margin: auto;
+  padding-left: 98px;
+  padding-right: 98px;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.footer__credentials {
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+.footer__mobile-contact {
+  position: relative;
+  padding-left: 30px;
+  padding-top: 10px;
+  width: 200px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 16px;
+    background-image: url("../../img/icons/mobile-icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 12px;
+    top: 14px;
+  }
+}
+
+.footer__phone-contact {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 10px;
+  width: 165px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../img/icons/phone-icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 4px;
+    top: 14px;
+  }
 }
 
 .footer__text--bold {
-    font-weight: bold;
-    font-size: $fs-base;
-    line-height: 22px;
-    color: $font-black;
+  font-weight: bold;
+  font-size: $fs-base;
+  line-height: 22px;
+  color: $font-black;
 }

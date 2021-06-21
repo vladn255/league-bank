@@ -1,15 +1,10 @@
+import Logo from '../logo/logo.jsx';
+
 const Header = () => {
     return (
         <header className="header">
             <nav className="nav">
-                <div className="logo">
-                    <svg className="logo__icon" width="28" height="25" aria-label="logo">
-
-                    </svg>
-                    <span className="logo__title">
-                        ЛИГА Банк
-                    </span>
-                </div>
+                <Logo />
                 <ul className="nav__list">
                     <li className="nav__item">
                         <a className="nav__link" href="/#">
@@ -21,7 +16,7 @@ const Header = () => {
                             Рассчитать кредит
                         </a>
                     </li>
-                    <li className="nav__item">
+                    <li className="nav__item nav__item--active">
                         <a className="nav__link" href="/#">
                             Конвертер валют
                         </a>
