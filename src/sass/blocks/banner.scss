@@ -1,15 +1,15 @@
 .banner {
   background-color: $bg-blue;
   width: 100%;
-  padding-left: 368px;
 }
 
 .banner__container {
   position: relative;
   min-height: 400px;
   margin: auto;
+  padding-right: 574px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -35,11 +35,13 @@
 }
 
 .banner__img--black {
-  left: 432px;
+  left: 50%;
+  transform: translate(15px);
   top: 120px;
 }
 
 .banner__img--white {
-  left: 540px;
+  left: 50%;
+  transform: translate(124px);
   top: 61px;
 }

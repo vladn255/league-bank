@@ -1,19 +1,25 @@
-import { ActionType } from './action/action.js';
+import { ActionType } from './action.js';
+import { getDateFormat } from '../utils';
+import { HISTORY_MAX_LENGTH } from '../const.js';
+import { RATES } from '../mock.js';
 
 const initialState = {
-    rates: [],
+    rates: RATES,
     history: [],
-    exchangeDate: new Date().toDateString,
+    exchangeDate: getDateFormat(new Date()),
 
     initialCurrencyValue: 1000,
     initialCurrencyOption: 'RUB',
     exchangeCurrenctValue: 0,
-    exchangeCurrencyOption: 'USD'
+    exchangeCurrencyOption: 'USD',
+
+    currentRate: 'RUBUSD'
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case ActionType.LOAD_EXCHANGE_RATES:
+            console.log('reducer', action.payload)
             return {
                 ...state,
                 rates: action.payload
@@ -26,10 +32,14 @@ const reducer = (state = initialState, action) => {
             };
 
         case ActionType.ADD_EXCHANGE_EVENT:
-            const newHistory = state.history.unshift(action.payload);
+            let newHistory = state.history.slice();
+            newHistory.unshift(action.payload);
+            if (newHistory.length > HISTORY_MAX_LENGTH) {
+                newHistory.splice(-1)
+            }
             return {
                 ...state,
-                history: newHistory.splice(-1)
+                history: newHistory
             };
 
         case ActionType.CLEAR_HISTORY:
@@ -42,6 +52,12 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 exchangeDate: action.payload
+            }
+
+        case ActionType.SET_CURRENT_RATE:
+            return {
+                ...state,
+                currentRate: action.payload
             }
 
         default: {

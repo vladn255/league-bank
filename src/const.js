@@ -1,0 +1,19 @@
+const DAYS_AGO_COUNT = 7;
+const MILLISECONDS_IN_DAY = 86400000;
+const API_KEY = 'b8e184ee5819b15f5e46a7be1710404a';
+const CURRENCIES = [
+    'RUB',
+    'USD',
+    'EUR',
+    'GBP',
+    'CNY'
+];
+const HISTORY_MAX_LENGTH = 10;
+
+export {
+    DAYS_AGO_COUNT,
+    MILLISECONDS_IN_DAY,
+    API_KEY,
+    CURRENCIES,
+    HISTORY_MAX_LENGTH
+}

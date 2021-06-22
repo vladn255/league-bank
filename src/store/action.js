@@ -3,7 +3,8 @@ const ActionType = {
     SET_EXCHANGE_HISTORY: 'setExchangeHistory',
     ADD_EXCHANGE_EVENT: 'addExchangeEvent',
     CLEAR_HISTORY: 'clearHistory',
-    SET_EXCHANGE_DATE: 'setExhangeDate'
+    SET_EXCHANGE_DATE: 'setExchangeDate',
+    SET_CURRENT_RATE: 'setCurrentRate'
 }
 
 const ActionCreator = {
@@ -22,9 +23,13 @@ const ActionCreator = {
     clearHistory: () => ({
         type: ActionType.CLEAR_HISTORY
     }),
-    setExhangeDate: (date) => ({
+    setExchangeDate: (date) => ({
         type: ActionType.SET_EXCHANGE_DATE,
         payload: date
+    }),
+    setCurrentRate: (rate) => ({
+        type: ActionType.SET_CURRENT_RATE,
+        payload: rate
     })
 }
 
