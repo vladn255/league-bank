@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/league-bank/static/css/main.32eb3fc2.chunk.css",
-    "main.js": "/league-bank/static/js/main.1896d407.chunk.js",
-    "main.js.map": "/league-bank/static/js/main.1896d407.chunk.js.map",
+    "main.js": "/league-bank/static/js/main.a1a44171.chunk.js",
+    "main.js.map": "/league-bank/static/js/main.a1a44171.chunk.js.map",
     "runtime-main.js": "/league-bank/static/js/runtime-main.c8a9cb95.js",
     "runtime-main.js.map": "/league-bank/static/js/runtime-main.c8a9cb95.js.map",
     "static/js/2.88449232.chunk.js": "/league-bank/static/js/2.88449232.chunk.js",
@@ -10,12 +10,20 @@
     "index.html": "/league-bank/index.html",
     "static/css/main.32eb3fc2.chunk.css.map": "/league-bank/static/css/main.32eb3fc2.chunk.css.map",
     "static/js/2.88449232.chunk.js.LICENSE.txt": "/league-bank/static/js/2.88449232.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/league-bank/static/media/phone-icon.9fd53784.svg"
+    "static/media/style.scss": "/league-bank/static/media/phone-icon.9fd53784.svg",
+    "static/media/black-card.117efe40.png": "/league-bank/static/media/black-card.117efe40.png",
+    "static/media/black-card.4b7ea0ec.webp": "/league-bank/static/media/black-card.4b7ea0ec.webp",
+    "static/media/black-card@2x.b01b7dbc.webp": "/league-bank/static/media/black-card@2x.b01b7dbc.webp",
+    "static/media/black-card@2x.d2169653.png": "/league-bank/static/media/black-card@2x.d2169653.png",
+    "static/media/white-card.92b1a9be.png": "/league-bank/static/media/white-card.92b1a9be.png",
+    "static/media/white-card.ec236673.webp": "/league-bank/static/media/white-card.ec236673.webp",
+    "static/media/white-card@2x.ae1e7b44.png": "/league-bank/static/media/white-card@2x.ae1e7b44.png",
+    "static/media/white-card@2x.b85d43d2.webp": "/league-bank/static/media/white-card@2x.b85d43d2.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.c8a9cb95.js",
     "static/js/2.88449232.chunk.js",
     "static/css/main.32eb3fc2.chunk.css",
-    "static/js/main.1896d407.chunk.js"
+    "static/js/main.a1a44171.chunk.js"
   ]
 }
