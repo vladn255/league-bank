@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/league-bank/static/css/main.32eb3fc2.chunk.css",
-    "main.js": "/league-bank/static/js/main.90db4f2c.chunk.js",
-    "main.js.map": "/league-bank/static/js/main.90db4f2c.chunk.js.map",
+    "main.js": "/league-bank/static/js/main.1896d407.chunk.js",
+    "main.js.map": "/league-bank/static/js/main.1896d407.chunk.js.map",
     "runtime-main.js": "/league-bank/static/js/runtime-main.c8a9cb95.js",
     "runtime-main.js.map": "/league-bank/static/js/runtime-main.c8a9cb95.js.map",
     "static/js/2.88449232.chunk.js": "/league-bank/static/js/2.88449232.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c8a9cb95.js",
     "static/js/2.88449232.chunk.js",
     "static/css/main.32eb3fc2.chunk.css",
-    "static/js/main.90db4f2c.chunk.js"
+    "static/js/main.1896d407.chunk.js"
   ]
 }
