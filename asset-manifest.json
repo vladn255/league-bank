@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/league-bank/static/css/main.32eb3fc2.chunk.css",
+    "main.js": "/league-bank/static/js/main.90db4f2c.chunk.js",
+    "main.js.map": "/league-bank/static/js/main.90db4f2c.chunk.js.map",
+    "runtime-main.js": "/league-bank/static/js/runtime-main.c8a9cb95.js",
+    "runtime-main.js.map": "/league-bank/static/js/runtime-main.c8a9cb95.js.map",
+    "static/js/2.88449232.chunk.js": "/league-bank/static/js/2.88449232.chunk.js",
+    "static/js/2.88449232.chunk.js.map": "/league-bank/static/js/2.88449232.chunk.js.map",
+    "index.html": "/league-bank/index.html",
+    "static/css/main.32eb3fc2.chunk.css.map": "/league-bank/static/css/main.32eb3fc2.chunk.css.map",
+    "static/js/2.88449232.chunk.js.LICENSE.txt": "/league-bank/static/js/2.88449232.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/league-bank/static/media/phone-icon.9fd53784.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a9cb95.js",
+    "static/js/2.88449232.chunk.js",
+    "static/css/main.32eb3fc2.chunk.css",
+    "static/js/main.90db4f2c.chunk.js"
+  ]
+}
