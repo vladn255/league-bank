@@ -23,10 +23,10 @@ const getDateFormat = (dateObject) => {
 }
 
 const getMinimumDate = (dateObject) => {
-    const parsedDateObject = dateObject.valueOf()
+    const parsedDateObject = new Date(dateObject).valueOf()
     const newDateValue = parsedDateObject - DAYS_AGO_COUNT * MILLISECONDS_IN_DAY;
     const newDate = new Date(newDateValue);
-    return newDate
+    return getDateFormat(newDate)
 }
 
 const getCombinations = (elemArray) => {

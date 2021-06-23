@@ -1,4 +1,5 @@
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import HistoryItem from '../history-item/history-item.jsx';
 import { getRandomInteger } from '../../utils.js';
@@ -17,6 +18,10 @@ const HistoryTable = ({history}) => {
         </table>
     )
 }
+
+HistoryTable.propTypes = {
+    history: PropTypes.arrayOf(PropTypes.string).isRequired
+};
 
 const mapStateToProps = ({ history }) => ({
     history

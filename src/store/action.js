@@ -21,7 +21,8 @@ const ActionCreator = {
         payload: exchangeEvent
     }),
     clearHistory: () => ({
-        type: ActionType.CLEAR_HISTORY
+        type: ActionType.CLEAR_HISTORY,
+        payload: ''
     }),
     setExchangeDate: (date) => ({
         type: ActionType.SET_EXCHANGE_DATE,

@@ -1,10 +1,9 @@
 import { ActionType } from './action.js';
 import { getDateFormat } from '../utils';
 import { HISTORY_MAX_LENGTH } from '../const.js';
-import { RATES } from '../mock.js';
 
 const initialState = {
-    rates: RATES,
+    rates: [],
     history: [],
     exchangeDate: getDateFormat(new Date()),
 
@@ -19,7 +18,6 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case ActionType.LOAD_EXCHANGE_RATES:
-            console.log('reducer', action.payload)
             return {
                 ...state,
                 rates: action.payload
